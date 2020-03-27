@@ -1,0 +1,118 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+body{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    background-color: #e8e8e8;
+    background: url(./Ellipse_1_copy.png) 300px 100px  no-repeat ;
+    position: relative;
+}
+.container{
+    width: 841px;
+    margin: 125px auto 132px;
+}
+/*                   HEAD                    */
+.head{
+    text-align: center;
+}
+.logo{
+   margin: 0 0 28px 0;
+   opacity: 0.6;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 2.8px;
+   
+}
+.category{
+    word-spacing: 1.8px;
+    margin: 0 0 77px 0;
+    color: #273d46;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+}
+/*                   IMG                      */
+.img{
+    border: 10px solid #ffffff;
+}
+.img img{
+    width: 100%;
+}
+/*                   INFO                   */
+.text{
+    max-width: 740px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 40px;
+    opacity: 0.8;
+}
+.text :nth-child(1){
+    margin:97px auto 64px ;
+}
+.text :nth-child(2){
+    margin: 0 0 64px 0;
+}
+/*                   LIST                   */
+.list{
+    
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.list li:nth-child(1){
+    color: #273d46;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.list li:nth-child(2){
+    color: #80b7b3;
+    font-style: italic;
+}
+.list li:nth-child(3){
+    font-weight: 700;
+}
+.list li:nth-child(4) span{
+    text-decoration: line-through;
+    opacity: 0.3;
+    margin: 0 0 59px 0;
+}
+.list li{
+    list-style-image: url(./img/check_icon.png);
+    opacity: 1;
+}
+/*                  BUTTON                   */
+.button{
+    margin: 59px auto;
+    min-width: 740px;
+}
+.button a{
+    color: #ffffff;
+    display: inline;
+    min-width: 740px;
+    margin: 0 0 0 50px;
+    text-transform: uppercase;
+    background-color: #80b7b3;
+    padding: 17px 30px;
+    border-radius: 35px;
+    letter-spacing: 2.8px;
+}
+.button a:hover{
+    box-shadow: 0 0 3px 3px #73c2bd;
+    transition: .2s;
+}
